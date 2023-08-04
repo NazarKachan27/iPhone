@@ -1,0 +1,42 @@
+header {
+    background-color: #757575;
+    padding: 15px;
+    width: 1300px;
+    text-align: center;
+    color: white;
+}
+header img {
+    width: 281px;
+    height: 85px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    mix-blend-mode: darken;
+}
+body {
+    width: 1300px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.old {
+    padding-left: 190px;
+}
+.new {
+    border-radius: 30px;
+}
+.img {
+    width: 281px;
+    height: 85px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    mix-blend-mode: darken;
+}
+footer {
+    background-color: #757575;
+    width: 1300px;
+    padding: 10px;
+    font-weight: 400;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
